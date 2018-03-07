@@ -1,0 +1,208 @@
+@import url("reset.css") screen;
+@import url("animation.css") screen;
+
+/* Common */
+html, body {
+  background-color: #fff;
+  background-image: linear-gradient(40deg, rgba(221, 236, 245, 0.1) 0%, rgba(221, 236, 245, 0) 0%, rgba(221, 236, 245, 0) 47%, rgba(221, 236, 245, 0.1) 47%, rgba(221, 236, 245, 0.1) 53%, rgba(221, 236, 245, 0) 53%, rgba(221, 236, 245, 0)),linear-gradient(-40deg, rgba(221, 236, 245, 0.9) 0%, rgba(221, 236, 245, 0) 0%, rgba(221, 236, 245, 0) 47%, rgba(221, 236, 245, 0.1) 47%, rgba(221, 236, 245, 0.1) 53%, rgba(221, 236, 245, 0) 53%, rgba(221, 236, 245, 0));
+  background-size: 50px 50px;
+	display: table; 
+	position:absolute; 
+	overflow: hidden;
+	width:100%;
+	font-size:12px;
+	font-family:"Open Sans", serif;
+	margin:auto 0 auto 0;
+	padding:0;
+	color:#aaa;
+	top:15%;
+}
+
+.helper {
+	#position: absolute; 
+	#top: 33%;
+	display: table-cell; 
+	vertical-align: middle;	
+}
+
+.helper2 {
+	#position: absolute; 
+	#top: 33%;
+	width:230px;
+	display: table-cell; 
+	vertical-align: middle;	
+}
+.content-left {
+	text-align:right;
+	#position: relative; 
+	#top: -33%;
+	margin:auto 0 0 auto;
+	width:114px;;	
+}
+.content {
+	text-align:center;
+	margin:0 auto;
+	#position: relative; 
+	#top: -33%;
+	width:229px;;	
+}
+.content-right {
+	text-align:left;
+	#position: relative; 
+	#top: -33%;
+	margin:0 0 auto;
+	width:114px;;	
+}
+
+/* LAYOUT */
+.container {
+	margin:0 auto 0;
+	overflow:hidden;
+	width:229px;
+}
+
+/* CONTENT SLIDER */
+#content-slider {
+	width:100%;
+	height:128px;
+	margin:0 auto 0;
+}
+/* SLIDER */
+#slider {
+	height:128px;
+	width:229px;
+	top:-128px;
+	margin:0 auto 0;
+	position:relative;
+}
+
+#mask {
+    height:128px;
+}
+#slider ul {
+	margin:0;
+	padding:0;
+	position:relative;
+}
+#slider li {
+	width:229px;
+	height:128px;
+	position:absolute;
+	list-style:none;
+}
+
+#slider li.firstanimation {
+	-moz-animation:cycle 15s linear infinite;	
+	-webkit-animation:cycle 15s linear infinite;		
+}
+#slider li.secondanimation {
+	-moz-animation:cycletwo 15s linear infinite;
+	-webkit-animation:cycletwo 15s linear infinite;		
+}
+#slider li.thirdanimation {
+	-moz-animation:cyclethree 15s linear infinite;
+	-webkit-animation:cyclethree 15s linear infinite;		
+}
+#slider li.fourthanimation {
+	-moz-animation:cyclefour 15s linear infinite;
+	-webkit-animation:cyclefour 15s linear infinite;		
+}
+#slider li.fifthanimation {
+	-moz-animation:cyclefive 15s linear infinite;
+	-webkit-animation:cyclefive 15s linear infinite;		
+}
+
+#slider .tooltip {
+}
+#slider .tooltip h1 {
+	font-size:0px;
+	font-weight:300;
+	line-height:60px;
+	padding:0 0 0 20px;
+}
+#slider li#first:hover .tooltip, 
+#slider li#second:hover .tooltip, 
+#slider li#third:hover .tooltip, 
+#slider li#fourth:hover .tooltip, 
+#slider li#fifth:hover .tooltip {
+	left:0px;
+}
+#slider:hover li, 
+#slider:hover .progress-bar {
+
+}
+
+/* PROGRESS BAR */
+.progress-bar { 
+    position:relative;
+    background-image:url(../../images/mask.png);
+	top:128px;
+    width:229px;
+    height:128px;
+}
+
+/* DISC BUTTONS */
+
+/* Styles for DISC button  */
+
+ul#disc {
+	width: 300px;
+	height: 250px;
+	clear: left;
+	margin-left: 19px;
+}
+
+	ul#disc li {
+		height: 200px;
+	}
+	
+		ul#disc li a, ul#disc li a:link, ul#disc li a:visited {
+			background: transparent url(../../images/btn-disc.png)) no-repeat 0 -129px;
+			display: block;
+			text-decoration: none;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 20px;
+			color: #7fa822;
+			text-align: center;
+			-webkit-transition: background-position .5s linear;
+			-moz-transition: background-position .5s linear;
+			-o-transition: background-position .5s linear;
+			transition: background-position .5s linear;
+		}
+		
+		ul#disc li a:hover, ul#disc li a:focus {
+			background-position: 0 20px;
+			outline: none;
+		}
+
+/* Styles for DISC button END */
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #4f4fad;
+	text-align: center;
+	margin: 20px 0 15px 0;
+}
+
+p {
+	padding: 0 0 22px 0;
+	line-height: 1.4;
+	font-family: Arial, Helvetica, sans-serif;
+	clear: left;
+}
+
+.center {
+	text-align: center;
+	padding: 20px 50px 0 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}

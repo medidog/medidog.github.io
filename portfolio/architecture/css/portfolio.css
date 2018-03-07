@@ -1,0 +1,571 @@
+.nav-links {
+	margin-bottom: 2px;
+}
+
+.nav-links:before {
+	content: '';
+	display: block;
+	width: 10px;
+	height: 0;
+	border-top: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+
+.nav-links a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #555;
+}
+
+.nav-links a:hover {
+	color: #FF5452;
+}
+
+/**** Isotope Filtering ****/
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+/**** Isotope CSS3 transitions ****/
+
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:      -o-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
+}
+
+
+.colio-item {
+}
+
+.colio-theme-black {
+	margin-right: 20px;
+}
+
+.colio-theme-black .colio-container {
+	background: #f9fbfd;
+}
+
+/* colio close */
+
+.colio-theme-black .colio-close span {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	text-indent: -9999px;
+}
+
+.colio-theme-black .colio-close {
+	position: absolute;
+	top: 140px;
+	right: 16px;
+}
+
+.colio-theme-black .colio-close span {
+	background: url(../images/controls.png) no-repeat -48px 0;
+}
+
+.colio-theme-black .colio-close:hover {
+	opacity: 0.8;
+}
+
+/* colio navigation */
+
+.colio-theme-black .colio-navigation span {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	text-indent: -9999px;
+}
+
+.colio-theme-black .colio-navigation {
+	position: absolute;
+	top: 150px;
+	left: 60px;
+}
+
+.colio-theme-black .colio-navigation a {
+	float: left;
+	padding: 5px;
+	margin-right: 5px;
+	line-height:100%;
+	background: #1cacb0;
+	-webkit-transition: background .1s;
+	-moz-transition: background .1s;
+	-o-transition: background .1s;
+	transition: background .1s;
+}
+
+.colio-theme-black .colio-navigation a:hover {
+	background: #555;
+}
+
+.colio-theme-black .colio-prev span {
+	background: url(../images/controls.png) no-repeat 0 0;
+}
+
+.colio-theme-black .colio-next span {
+	background: url(../images/controls.png) no-repeat -24px 0;
+}
+
+.colio-theme-black .colio-no-prev,
+.colio-theme-black .colio-no-next {
+	background: #555555 !important;
+}
+
+/* content */
+
+.colio-theme-black .main {
+	float: left;
+	width: 45%;
+	padding: 20px;
+	padding-top: 110px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.colio-theme-black .side {
+	float: left;
+	padding: 20px;
+	padding-top: 100px;
+	width: 55%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* typography */
+
+.colio-theme-black h3 {
+	padding: 0;
+	margin: 0 0 0px 0px;
+	font-size: 21px;
+	color:#000;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+
+.colio-theme-black p {
+	color:rgb(16, 16, 16);
+    font-size: 16px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.colio-theme-black a,
+.colio-theme-black a:visited {
+	color: #1cacb0;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.colio-theme-black a:hover {
+	color: #000;
+}
+
+.colio-theme-black a.visit-link {
+	display: inline-block;
+	padding: 5px 15px;
+	border: 2px solid #1cacb0;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-style: normal;
+	line-height: 21px;
+	font-size: 12px;
+	letter-spacing: 0.05px;
+}
+
+/* photo feed */
+
+.colio-theme-black .feed {
+	margin: 0;
+	list-style: none;
+}
+
+.colio-theme-black .feed li {
+	float: left;
+	margin: 0 5px 5px 0;
+	list-style:none;
+	width: 170px;
+	height: auto;
+	overflow: hidden;
+	background: #1cacb0 url(../images/plus.png) no-repeat center;
+}
+
+.colio-theme-black .feed img {
+	height: 100%;
+/*	width: 100%; */
+	vertical-align: top;
+	-webkit-transition: opacity .2s;
+	-moz-transition: opacity .2s;
+	-o-transition: opacity .2s;
+	transition: opacity .2s;
+}
+
+.colio-theme-black .feed li:hover img {
+	opacity: 0.2;
+}
+
+/* social icons */
+
+.colio-theme-black .social {
+	width: 100%;
+	margin-bottom: 21px;
+	overflow: hidden;
+}
+
+.colio-theme-black .social li {
+	float: left;
+	margin: 0 7px 0 0;
+}
+
+.colio-theme-black .social a {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	text-indent: -9999px;
+	opacity: 0.8;
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	background-size: 24px 24px !important;
+}
+
+.colio-theme-black .social a:hover {
+	opacity: 1;
+	-webkit-transition: opacity .2s;
+	-moz-transition: opacity .2s;
+	-o-transition: opacity .2s;
+	transition: opacity .2s;
+}
+
+.colio-theme-black .social .delicious { background: url(../images/social/delicious.png) no-repeat center; }
+.colio-theme-black .social .digg { background: url(../images/social/digg.png) no-repeat center; }
+.colio-theme-black .social .dribble { background: url(../images/social/dribble.png) no-repeat center; }
+.colio-theme-black .social .ember { background: url(../images/social/ember.png) no-repeat center; }
+.colio-theme-black .social .facebook { background: url(../images/social/facebook.png) no-repeat center; }
+.colio-theme-black .social .flickr { background: url(../images/social/flickr.png) no-repeat center; }
+.colio-theme-black .social .forrst { background: url(../images/social/forrst.png) no-repeat center; }
+.colio-theme-black .social .google { background: url(../images/social/google.png) no-repeat center; }
+.colio-theme-black .social .last_fm { background: url(../images/social/last_fm.png) no-repeat center; }
+.colio-theme-black .social .linkedin { background: url(../images/social/linkedin.png) no-repeat center; }
+.colio-theme-black .social .my_space { background: url(../images/social/my_space.png) no-repeat center; }
+.colio-theme-black .social .quora { background: url(../images/social/quora.png) no-repeat center; }
+.colio-theme-black .social .rss { background: url(../images/social/rss.png) no-repeat center; }
+.colio-theme-black .social .sharethis { background: url(../images/social/sharethis.png) no-repeat center; }
+.colio-theme-black .social .skype { background: url(../images/social/skype.png) no-repeat center; }
+.colio-theme-black .social .stumbleupon { background: url(../images/social/stumbleupon.png) no-repeat center; }
+.colio-theme-black .social .tumblr { background: url(../images/social/tumblr.png) no-repeat center; }
+.colio-theme-black .social .twitter { background: url(../images/social/twitter.png) no-repeat center; }
+.colio-theme-black .social .vimeo { background: url(../images/social/vimeo.png) no-repeat center; }
+.colio-theme-black .social .youtube { background: url(../images/social/you_tube.png) no-repeat center; }
+
+
+/* Retina
+================================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+	.colio-theme-black .colio-prev span {
+		background: url(../images/controls@2x.png) no-repeat 0 0;
+		background-size: 72px 24px;
+	}
+	
+	.colio-theme-black .colio-next span {
+		background: url(../images/controls@2x.png) no-repeat -24px 0;
+		background-size: 72px 24px;
+	}
+	
+	.colio-theme-black .colio-close span {
+		background: url(../images/controls@2x.png) no-repeat -48px 0;
+		background-size: 72px 24px;
+	}
+}
+
+
+/* Media queries
+================================================== */
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) { }
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	
+	.colio-theme-black .main, 
+	.colio-theme-black .side { clear: both; width: 100%; padding: 0; margin-bottom: 40px; }
+	.colio-theme-black .side { margin-bottom: 0; }
+	.colio-theme-black .colio-navigation { left: 40px; top: 40px; }
+	.colio-theme-black .main h3 { float: none; margin: 60px 0 20px; text-align: left; }
+	
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+	
+	.colio-theme-black .colio-container { padding: 30px; }
+	.colio-theme-black .colio-navigation { left: 30px; top: 30px; }
+	.colio-theme-black .feed li { width: 115px; height: 115px; }
+	
+}
+
+/* portfolio filters */
+
+.portfolio .filters {
+	position:relative;
+}
+
+.portfolio .filters a {
+	display: inline-block;
+	margin-left: 20px;
+	padding: 1px 2px;
+	font-weight:400;
+	font-size:16px;
+	text-transform:uppercase;
+	text-decoration: none;
+}
+
+.portfolio .filters a:hover {
+	color: #676763;
+}
+
+.portfolio .filters a.filter-active {
+	color: #676763;
+	border-bottom: 1px solid #676763;
+}
+
+/*filters 2*/
+
+.portfolio .filters2 {
+	z-index:-1;
+	position:relative;
+	/*float: left;*/
+}
+
+.portfolio .filters2 a {
+	display: inline-block;
+	margin-left: 10px;
+	margin-left: 10px;
+	padding: 3px 2px;
+	font-weight:400;
+	font-size:16px;
+	text-transform:uppercase;
+	text-decoration: none;
+}
+
+.portfolio .filters2 a:hover {
+	color: #676763;
+}
+
+.portfolio .filters2 a.filter2-active {
+	color: #676763;
+	border-bottom: 1px solid #676763;
+}
+
+/* portfolio list */
+
+.portfolio .list {
+	clear: both;
+	margin-top:140px;
+}
+
+.portfolio .list li {
+	list-style:none;
+	margin: 0 0 20px 0;
+}
+
+.portfolio .list .thumb {
+	position: relative;
+	width: 100%;
+	margin-bottom: 14px;
+	overflow: hidden;
+}
+
+.portfolio .list .thumb img {
+	max-width: 100%;
+	vertical-align: top;
+}
+
+.portfolio .list .view {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: #fff;
+	background: rgba(255,255,255,0.7);
+	border: 1px solid #fff;
+	text-align: center;
+	line-height: 0;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: opacity 0.3s, visibility 0s linear .3s;
+	-moz-transition: opacity 0.3s, visibility 0s linear .3s;
+	-o-transition: opacity 0.3s, visibility 0s linear .3s;
+	transition: opacity 0.3s, visibility 0s linear .3s;
+	-webkit-transform: translate3d(0,0,0);
+}
+
+.portfolio .list .thumb:hover .view {
+	visibility: visible;
+	opacity: 1;
+	-webkit-transition-delay: 0s;
+	-moz-transition-delay: 0s;
+	-o-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+.portfolio .list .view .button { 
+	position: relative;
+	top: 50%;
+	margin-top: -17px;
+}
+
+.portfolio .list h4 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.portfolio .list h4 a {
+	text-decoration: none;
+}
+
+.portfolio .colio-active-item h4 a {
+	background: #1cacb0;
+	padding: 2px 10px;
+	color:#fff !important;
+}
+
+.portfolio .list p {
+    font-size: 13px;
+    line-height: 1.3em;
+    text-align: left;
+}
+.portfolio .list p a {
+   font-size: 14px;
+    font-weight: 300;
+    padding: 3px 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+img.scale-with-grid {
+		max-width: 100%;
+		height: auto;
+	}
+
+
+.colio {
+	position: relative;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+}
+
+.colio-container {
+	padding: 40px 20px;
+	margin: 0 0 0 20px;
+/*	height: 100%;*/
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.colio-content {
+	display: none;
+	overflow: hidden;
+}
+
+.colio-close,
+.colio-prev,
+.colio-next {
+	outline: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.colio-no-prev,
+.colio-no-next {
+	cursor: default;
+	opacity: 0.2;
+}
+
+/* navigation, close */
+
+.colio-close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.colio-navigation {
+	display:none !important;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.colio-navigation a {
+	margin-right: 5px;	
+}
+
+/* placement */
+
+.colio-placement-inside,
+.colio-placement-before {
+	margin-bottom: 20px;
+}
+
+.colio-placement-after {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}

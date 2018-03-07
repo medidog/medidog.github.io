@@ -1,0 +1,463 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Interactive Portfolio - NHM</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+  <!-- Bootstrap Styles -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <!-- Portfolio Styles -->
+  <link rel="stylesheet" href="css/bootstrap-theme.css">
+  <!-- Style Styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Scripts -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/npm.js"></script>
+  <!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Open Sans:300,600|Open Sans:300" rel="stylesheet">
+  <link rel="stylesheet"  href="css/lightGallery.css"/>
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+<script src="js/jquery-1.9.1.js"></script>
+  <script type="text/javascript">
+$(document).ready(function(){
+	$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 700, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
+});
+</script>
+<script src="js/lightGallery.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
+        } else {
+            $('.scrollup').fadeOut();
+        }
+    });
+
+});
+</script>
+<script type="text/javascript">
+  $(document).ready(function() {
+     $('#iframe').lightGallery({
+        html:true,
+        thumbnail:false,
+        selector:'#iframe',
+        videoMaxWidth:'100%'
+    });
+  });
+</script>
+<script type="text/javascript">
+  $(document).ready(function() {
+     $('#iframe2').lightGallery({
+        html:true,
+        thumbnail:false,
+        selector:'#iframe2',
+        videoMaxWidth:'100%'
+    });
+  });
+</script>
+<script>
+    	 $(document).ready(function() {
+			$("#lightGallery").lightGallery();
+			$("#lightGallery2").lightGallery();
+			$("#lightGallery3").lightGallery();
+		});
+</script>
+    <script type="text/javascript">
+  $(document).ready(function() {
+    $('#bazmi').click(function(e){
+        $(this).lightGallery({
+            showThumbByDefault:true,
+            addClass:'showThumbByDefault',
+            dynamic:true,
+            html:true,
+            dynamicEl:[
+                {"src":"img/projects/bazmi.png","thumb":"img/thumb/bazmi.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/bazmi2.png","thumb":"img/thumb/bazmi2.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/bazmi3.png","thumb":"img/thumb/bazmi3.png","sub-html":"#dynamicHtml"}
+            ]
+        });	
+    })
+    $('#vimpii').click(function(e){
+        $(this).lightGallery({
+            showThumbByDefault:true,
+            addClass:'showThumbByDefault',
+            dynamic:true,
+            html:true,
+            dynamicEl:[
+                {"src":"img/projects/vimpii2.png","thumb":"img/thumb/vimpii2.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/vimpii3.png","thumb":"img/thumb/vimpii3.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/vimpii.png","thumb":"img/thumb/vimpii.png","sub-html":"#dynamicHtml"}
+            ]
+        });	
+    })
+    $('#iytebrand').click(function(e){
+        $(this).lightGallery({
+            showThumbByDefault:true,
+            addClass:'showThumbByDefault',
+            dynamic:true,
+            html:true,
+            dynamicEl:[
+                {"src":"img/projects/iyte2.png","thumb":"img/thumb/iyte2.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/iytelogo.png","thumb":"img/thumb/iytelogo.png","sub-html":"#dynamicHtml"}
+            ]
+        });	
+    })
+    $('#highfive').click(function(e){
+        $(this).lightGallery({
+            showThumbByDefault:true,
+            addClass:'showThumbByDefault',
+            dynamic:true,
+            html:true,
+            dynamicEl:[
+                {"src":"img/projects/highfive1.png","thumb":"img/thumb/highfive1.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/highfive2.png","thumb":"img/thumb/highfive2.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/highfive3.png","thumb":"img/thumb/highfive3.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/highfive4.png","thumb":"img/thumb/highfive4.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/highfive5.png","thumb":"img/thumb/highfive5.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/highfive6.png","thumb":"img/thumb/highfive6.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/highfive7.png","thumb":"img/thumb/highfive7.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/highfive8.png","thumb":"img/thumb/highfive8.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/highfive9.png","thumb":"img/thumb/highfive9.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/highfive10.png","thumb":"img/thumb/highfive10.png","sub-html":"#dynamicHtml"}
+            ]
+        });	
+    })
+    $('#april').click(function(e){
+        $(this).lightGallery({
+            showThumbByDefault:true,
+            addClass:'showThumbByDefault',
+            dynamic:true,
+            html:true,
+            dynamicEl:[
+                {"src":"img/projects/april1.png","thumb":"img/thumb/april1.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/april2.png","thumb":"img/thumb/april2.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/april3.jpg","thumb":"img/thumb/april3.jpg","sub-html":"#dynamicHtml"}
+            ]
+        });	
+    })
+    $('#once').click(function(e){
+        $(this).lightGallery({
+            showThumbByDefault:true,
+            addClass:'showThumbByDefault',
+            dynamic:true,
+            html:true,
+            dynamicEl:[
+                {"src":"http://vimeo.com/80965732#t=0s","thumb":"img/thumb/oncevideo1.png"},
+                {"src":"http://vimeo.com/81184300#t=0s","thumb":"img/thumb/oncevideo2.png"},
+                {"src":"img/projects/once1.png","thumb":"img/thumb/once1.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/once2.png","thumb":"img/thumb/once2.png","sub-html":"#dynamicHtml"}
+            ]
+        });	
+    })
+    $('#poplar').click(function(e){
+        $(this).lightGallery({
+            showThumbByDefault:true,
+            addClass:'showThumbByDefault',
+            dynamic:true,
+            html:true,
+            dynamicEl:[
+                {"src":"http://vimeo.com/59529769#t=19s","thumb":"img/thumb/poplarvideo.png"},
+                {"src":"img/projects/poplar2.png","thumb":"img/thumb/poplar2.png"},
+                {"src":"img/projects/poplar3.png","thumb":"img/thumb/poplar3.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/poplar4.png","thumb":"img/thumb/poplar4.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/poplar5.png","thumb":"img/thumb/poplar5.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/poplar6.png","thumb":"img/thumb/poplar6.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/poplar7.png","thumb":"img/thumb/poplar7.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/poplar8.png","thumb":"img/thumb/poplar8.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/poplar9.png","thumb":"img/thumb/poplar9.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/poplar10.png","thumb":"img/thumb/poplar10.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/poplar11.png","thumb":"img/thumb/poplar11.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/poplar1.png","thumb":"img/thumb/poplar1.png","sub-html":"#dynamicHtml"}
+            ]
+        });	
+    }) 
+    $('#catbitedog').click(function(e){
+        $(this).lightGallery({
+            showThumbByDefault:true,
+            addClass:'showThumbByDefault',
+            dynamic:true,
+            html:true,
+            dynamicEl:[
+                {"src":"img/projects/catbitedog0.png","thumb":"img/thumb/catbitedog0.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/catbitedog1.png","thumb":"img/thumb/catbitedog1.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/catbitedog11.png","thumb":"img/thumb/catbitedog11.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/catbitedog2.png","thumb":"img/thumb/catbitedog2.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/highfive1.png","thumb":"img/thumb/highfive1.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/highfive2.png","thumb":"img/thumb/highfive2.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/highfive3.png","thumb":"img/thumb/highfive3.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/highfive4.png","thumb":"img/thumb/highfive4.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/highfive5.png","thumb":"img/thumb/highfive5.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/highfive6.png","thumb":"img/thumb/highfive6.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/highfive7.png","thumb":"img/thumb/highfive7.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/highfive8.png","thumb":"img/thumb/highfive8.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/highfive9.png","thumb":"img/thumb/highfive9.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/highfive10.png","thumb":"img/thumb/highfive10.png","sub-html":"#dynamicHtml"},
+				{"src":"http://vimeo.com/81290534#t=0s","thumb":"img/thumb/crowbarvideo.png"},
+                {"src":"img/projects/crowbar.png","thumb":"img/thumb/crowbar.png"},
+                {"src":"img/projects/crowbar2.png","thumb":"img/thumb/crowbar2.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/crowbar3.png","thumb":"img/thumb/crowbar3.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/crowbar4.png","thumb":"img/thumb/crowbar4.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/crowbar5.png","thumb":"img/thumb/crowbar5.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/crowbar6.png","thumb":"img/thumb/crowbar6.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/crowbar7.png","thumb":"img/thumb/crowbar7.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/crowbar8.png","thumb":"img/thumb/crowbar8.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/crowbar9.png","thumb":"img/thumb/crowbar9.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/crowbar10.png","thumb":"img/thumb/crowbar10.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/crowbar11.png","thumb":"img/thumb/crowbar11.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/crowbar12.png","thumb":"img/thumb/crowbar12.png","sub-html":"#dynamicHtml"}
+            ]
+        });	
+    })
+    $('#mystery').click(function(e){
+        $(this).lightGallery({
+            showThumbByDefault:true,
+            addClass:'showThumbByDefault',
+            dynamic:true,
+            html:true,
+            dynamicEl:[
+                {"src":"http://www.archaeologychannel.org/images/player/player.php?v=mysteriesancientclip.mp4","thumb":"img/thumb/moaavideo.png"}
+            ]
+        });	
+    })
+    $('#aot').click(function(e){
+        $(this).lightGallery({
+            showThumbByDefault:true,
+            addClass:'showThumbByDefault',
+            dynamic:true,
+            html:true,
+            dynamicEl:[
+                {"src":"img/projects/aot.png","thumb":"img/thumb/aot.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/aot1.png","thumb":"img/thumb/aot1.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/aot2.png","thumb":"img/thumb/aot2.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/aot3.png","thumb":"img/thumb/aot3.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/aot4.png","thumb":"img/thumb/aot4.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/aot5.png","thumb":"img/thumb/aot5.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/aot6.png","thumb":"img/thumb/aot6.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/aot7.png","thumb":"img/thumb/aot7.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/aot8.png","thumb":"img/thumb/aot8.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/aot9.png","thumb":"img/thumb/aot9.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/aot10.png","thumb":"img/thumb/aot10.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/aot11.png","thumb":"img/thumb/aot11.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/aot12.png","thumb":"img/thumb/aot12.png","sub-html":"#dynamicHtml"}
+            ]
+        });	
+    })
+    $('#diamond').click(function(e){
+        $(this).lightGallery({
+            showThumbByDefault:true,
+            addClass:'showThumbByDefault',
+            dynamic:true,
+            html:true,
+            dynamicEl:[
+                {"src":"http://vimeo.com/80709903#t=0s","thumb":"img/thumb/diamondvideo1.png"},
+                {"src":"http://vimeo.com/80670193#t=0s","thumb":"img/thumb/diamondvideo2.png"},
+                {"src":"http://vimeo.com/80675513#t=0s","thumb":"img/thumb/diamondvideo3.png","sub-html":"#dynamicHtml"},
+                {"src":"http://vimeo.com/81266595#t=0s","thumb":"img/thumb/diamondvideo4.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/diamond1.png","thumb":"img/thumb/diamond1.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/diamond2.png","thumb":"img/thumb/diamond2.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/diamond3.png","thumb":"img/thumb/diamond3.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/diamond4.png","thumb":"img/thumb/diamond4.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/diamond5.png","thumb":"img/thumb/diamond5.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/diamond6.png","thumb":"img/thumb/diamond6.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/diamond7.png","thumb":"img/thumb/diamond7.png","sub-html":"#dynamicHtml"}
+            ]
+        });	
+    })
+    $('#poplar').click(function(e){
+        $(this).lightGallery({
+            showThumbByDefault:true,
+            addClass:'showThumbByDefault',
+            dynamic:true,
+            html:true,
+            dynamicEl:[
+                {"src":"http://vimeo.com/59529769#t=http://vimeo.com/59529769#t=19s","thumb":"img/thumb/poplarvideo.png"},
+                {"src":"img/projects/poplar2.png","thumb":"img/thumb/poplar2.png"},
+                {"src":"img/projects/poplar3.png","thumb":"img/thumb/poplar3.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/poplar4.png","thumb":"img/thumb/poplar4.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/poplar5.png","thumb":"img/thumb/poplar5.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/poplar6.png","thumb":"img/thumb/poplar6.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/poplar7.png","thumb":"img/thumb/poplar7.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/poplar8.png","thumb":"img/thumb/poplar8.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/poplar9.png","thumb":"img/thumb/poplar9.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/poplar10.png","thumb":"img/thumb/poplar10.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/poplar11.png","thumb":"img/thumb/poplar11.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/poplar1.png","thumb":"img/thumb/poplar1.png","sub-html":"#dynamicHtml"}
+            ]
+        });	
+    }) 
+    $('#nff').click(function(e){
+        $(this).lightGallery({
+            showThumbByDefault:true,
+            addClass:'showThumbByDefault',
+            dynamic:true,
+            html:true,
+            dynamicEl:[
+                {"src":"img/projects/fikir.png","thumb":"img/thumb/fikir.png"}
+            ]
+        });	
+    }) 
+    $('#crowbar').click(function(e){
+        $(this).lightGallery({
+            showThumbByDefault:true,
+            addClass:'showThumbByDefault',
+            dynamic:true,
+            html:true,
+            dynamicEl:[
+                {"src":"http://vimeo.com/81290534#t=0s","thumb":"img/thumb/crowbarvideo.png"},
+                {"src":"img/projects/crowbar.png","thumb":"img/thumb/crowbar.png"},
+                {"src":"img/projects/crowbar2.png","thumb":"img/thumb/crowbar2.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/crowbar3.png","thumb":"img/thumb/crowbar3.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/crowbar4.png","thumb":"img/thumb/crowbar4.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/crowbar5.png","thumb":"img/thumb/crowbar5.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/crowbar6.png","thumb":"img/thumb/crowbar6.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/crowbar7.png","thumb":"img/thumb/crowbar7.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/crowbar8.png","thumb":"img/thumb/crowbar8.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/crowbar9.png","thumb":"img/thumb/crowbar9.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/crowbar10.png","thumb":"img/thumb/crowbar10.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/crowbar11.png","thumb":"img/thumb/crowbar11.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/crowbar12.png","thumb":"img/thumb/crowbar12.png","sub-html":"#dynamicHtml"}
+            ]
+        });	
+    })
+	
+    $('#touchkiosk').click(function(e){
+        $(this).lightGallery({
+            showThumbByDefault:true,
+            addClass:'showThumbByDefault',
+            dynamic:true,
+            html:true,
+            dynamicEl:[
+                {"src":"img/projects/mcexhibit.png","thumb":"img/thumb/mcexhibit.png"},
+                {"src":"img/projects/moundd.png","thumb":"img/thumb/moundd.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/mcexhibit2.png","thumb":"img/thumb/mcexhibit2.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/mcexhibit3.png","thumb":"img/thumb/mcexhibit3.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/mcexhibit4.png","thumb":"img/thumb/mcexhibit4.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/mcexhibit5.png","thumb":"img/thumb/mcexhibit5.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/newtown.jpg","thumb":"img/thumb/newtown.jpg","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/newtown2.jpg","thumb":"img/thumb/newtown2.jpg","sub-html":"#dynamicHtml"},
+
+            ]
+        });	
+    })
+	
+  });
+</script>
+</head>
+
+<body id="top"><br />
+<a href="#top" class="scrollup soc2"><img src="img/up.png" width="40" height="40" /></a>
+<article class="home" id="intro"> <div id="sidebar"><img src="img/nhm.png" width="200" height="248" /><h2 style="font-size:33px;color:#7fadf9">nabi<span style="color:#414141">hamdi</span>mortan</h2>
+  <h4>Interactive Portfolio</h4><br /><a href="http://www.twitter.com/medidog" target="_blank"><img class="soc2" src="img/social_t.png" width="37" height="32"/></a><a href="http://www.linkedin.com/in/medidog"><img class="soc2" src="img/social_in.png" width="37" height="32"/></a><a href="http://www.github.com/medidog" target="_blank"><img class="soc2" src="img/social_git.png" width="37" height="32"/></a><a href="http://www.behance.net/medidog" target="_blank"><img class="soc2" src="img/social_be.png" width="37" height="32"/></a><a href="http://blog.hamdimortan.com" target="_blank"><img class="soc2" src="img/social_tumb.png" width="37" height="32"/></a><br/><br/>
+<br />
+<p class="soc2"><a href="http://portfolio.hamdimortan.com/Resume_NHM.pdf" target="_blank"><img src="img/resume.png" width="22" height="40" /></a></p><a style="color:#483a53" href="http://portfolio.hamdimortan.com/Resume_NHM.pdf" target="_blank">
+<h4 style="font-size:16px;">Resume (PDF)</h4></a><br /><br />
+<p class="soc2"><a href="mailto:hamdimortan@gmail.com"><img src="img/mail.png" width="47" height="37" /></a></p>
+<h4 style="color:#483a53;font-size:15px">hamdimortan@gmail.com</h4><br />
+<br />
+<p class="soc2"><a href="http://www.hamdimortan.com/"><img src="img/www.png" width="47" height="47" /></a></p>
+<a href="http://www.hamdimortan.com/"><h4 style="color:#483a53; font-size:17px">Back to Main Page</h4></a><br /><br />
+</div></article>
+<article class="about" id="about">
+  <div class="lead">
+    <p>&nbsp;</p>
+    <p>Hi there. My name is Nabi and I enjoy creating interactive experiences for communities that care for creativity, education and open source.&nbsp;    I currently live in Chicago, Illinois and I am looking for a designer position to flourish my creativity into unique interactive experiences.    </p>
+
+        <h3> <a class="me3" href="http://www.portfolio.hamdimortan.com/Resume_NHM.pdf" target="_blank" >Download My Resume (PDF)</a></h3>
+    <p>&nbsp;</p>
+    <h4>Below you'll find samples that stands out from the rest of my work :</h4>
+  </div>
+  <div class="lead col-12">  <div class="row"></div>
+</div>
+</article>
+
+<article class="work" id="work">
+
+<section id="work-touchkiosk" class="work touchkiosk">
+<div class="lead col-12">
+  <h3><br />Ancient Ohio Trail: Museum Exhibit Touch Interface</h3>
+  <iframe style="min-width:100%;height:300px"  src="https://player.vimeo.com/video/137098608?title=0&byline=0&portrait=0" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+
+<div class="col-lg-6">This was a museum kiosk app built for Mound City and Newtown  Exhibits, which were parts of the NEH Funded &quot;Ancient Ohio Trail&quot; Project by <a href="http://earthworks.uc.edu/" target="_blank">CERHAS</a>. I created  the app using HTML5, CSS, and JavaScript, building upon BigVideo.js and  Modernizr.js, and used Chrome Kiosk mode for the app to lock on the museum kiosk. In addition, I completed more than 400 videos for this project and also for <a href="http://www.ancientohiotrail.com">AncientOhioTrail.com</a> desktop and mobile, including rendering 3D animations in 3DsMAX, audio/video editing and production of the all HD movies in Premiere.</div>
+</div><div class="funfact2 col-lg-offset-6">
+  <div class="funtext">
+      See more or fork my repository:</div>
+    <a id="touchkiosk" href="javascript:void(0)" class="button gallery2"><img src="img/more.png" width="41" height="49" /></a>&nbsp;<a href="https://github.com/medidog/touchKioskv0.2b" target="_blank" class="button"><img src="img/forkit.png" width="84" height="49" /></a></div></section>
+    
+    <br />
+    
+
+<section id="work-aot" class="work aot">
+<div class="lead">
+  <h3><br /><br /><br /><br /><br /><br />
+  Mysteries of Ancient Architects</h3>
+  <iframe style="min-width:100%;height:300px"  src="https://player.vimeo.com/video/137604309?title=0&byline=0&portrait=0" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+  <div class="col-lg-6">This award-winning project was a collaboration between CERHAS and <a href="http://www.cameraone.us/pages/catalog/17MYST.html" target="_blank">CameraOne. </a> I was asked to   render all the 3D animations in HD (1920x1080 resolution) using the archive movies that were 640x480. I was also asked to model new earthworks and mounds from their archaeologic excavation site, create high quality textures for old and new models, and render all the animations in 3DsMAX.</div> 
+</div><div class="funfact col-lg-offset-6">
+    <div class="funtext"> Wanna see all the festival movies?</div>
+    
+    <a href="http://www.archaeologychannel.org/events-guide/international-film-and-video-festival/171-archived-festival-pages/tac-fest-2013/1273-film-awards-2013" target="_blank" class="button"><img src="img/webit2.png" width="150" height="49" /></a></div></section> 
+    
+    <br />
+
+    
+    <section id="work-bazmi" class="work bazmi">
+<div class="lead">
+  <h3><br /><br /><br /><br />Bazmi the Buzz Bee</h3>
+    <iframe seamless style="width:100%;height:300px"  src="Bazmi.htm" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+<div class="col-lg-6">Try to catch him before he catches your mouse arrow! Bazmi was designed to be a logo for  <a href="https://web.archive.org/web/20130329001723/http://www.bazzturk.com/" target="_blank">BuzzTurk.com</a>, a buzz community website in Turkey. He had no eyebrows, no hands, no animations, and he had  no soul. I gave him life by changing his color scheme, and adding the much  needed hair. Animated him in Flash and used ActionScript to make him  interactive. </div></div><div class="funfact col-lg-offset-6">
+  <div class="funtext">Click more for how to play</div>
+    
+    <a id="bazmi" href="javascript:void(0)" class="button gallery2"><img src="img/more.png" width="41" height="49" /></a>&nbsp;<a style="cursor:pointer" id="iframe" data-iframe="true" data-src="Bazmi.htm" class="button"><img src="img/interact.png" width="84" height="49" /></a></div></section>
+    
+<br />
+
+<section id="work-nff" class="work nff">
+<div class="lead col-12">
+  <h3><br /><br /><br /><br />Numil Idea Factory  Widget</h3>
+  <img class="img-responsive" src="img/numil.png" width="100%" height="auto" />
+<div class="col-lg-6">I created all the design assets for the widget. The goal was  to create a widget that would allow instantly sharing ideas within the <a href="http://www.numilfikirfabrikasi.com/">Numil</a> community via submitting ideas until the end of a certain deadline while  displaying the deadline and also the number of ideas that have been shared so  far. The project was completed within one night.</div></div><div class="funfact col-lg-offset-6">
+    <div class="funtext">Show more or fork me on:</div>
+    
+    <a id="nff" href="javascript:void(0)" class="button gallery2"><img src="img/more.png" width="41" height="49" /></a>&nbsp;<a href="https://github.com/medidog/NFF-Widget" target="_blank" class="button"><img src="img/forkit.png" width="84" height="49" /></a></div></section>  
+  
+
+  <br />
+    
+    <br />
+
+</article>
+
+<article class="extra" id="extra">
+  <div class="lead">
+    <p>&nbsp;</p>
+    <p> Thanks for browsing! If you want to see more of my work, you can check out my <a class="me3" href="http://game.hamdimortan.com" target="_blank">Game Portfolio</a> or you can go back to the <a class="me3" href="http://www.hamdimortan.com" target="_blank">Main Page</a>.</p>
+    <p>&nbsp;</p>
+    <h4>I am also blogging here: <a class="me3" href="http://blog.hamdimortan.com" target="_blank">medidog.tumblr.com</a></h4>
+  </div>
+  <div class="lead col-12">  <div class="row"></div>
+</div>
+</article>
+
+<div style="font-size:14px"> <br /><br /><br /><br />
+  <p>Nabi Hamdi Mortan © 2014 &nbsp;-&nbsp; I combined <a href="http://getbootstrap.com/">Bootstrap</a> and <a href="http://sachinchoolur.github.io/lightGallery/">lightGallery</a>  for this website. &nbsp;&nbsp;<a href="http://www.github.com/medidog">Fork me on Github</a></p>
+  <p><a href="https://twitter.com/medidog" class="twitter-follow-button" data-show-count="false">Follow @medidog</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
+</div>
+</body>
+</html>

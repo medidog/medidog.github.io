@@ -1,0 +1,336 @@
+img {
+	border: none;
+}
+
+ul {
+	list-style: none;
+	float: left;
+	padding: 0;
+}
+
+ul li a {
+	overflow: hidden;
+}
+
+/* Styles for DISC button  */
+
+ul#disc {
+	clear: left;
+	margin-left: 19px;
+}
+
+	ul#disc li {
+		height: 200px;
+	}
+	
+		ul#disc li a, ul#disc li a:link, ul#disc li a:visited {
+			background: transparent url(../../images/nhm_on_07.png) no-repeat 0 0px;
+			z-index:1000;
+			display: block;
+			text-decoration: none;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 20px;
+			color: #7fa822;
+			text-align: center;
+			-webkit-transition: background-position .5s linear;
+			-moz-transition: background-position .5s linear;
+			-o-transition: background-position .5s linear;
+			transition: background-position .5s linear;
+
+		}
+		
+		ul#disc li a:hover, ul#disc li a:focus {
+			background-position: 0 -40px;
+			outline: none;
+
+		}
+
+/* Styles for DISC button END */
+
+/* Styles for DISC button  */
+
+ul#disc2 {
+	height: 250px;
+	clear: left;
+}
+
+	ul#disc2 li {
+		height: 200px;
+	}
+	
+		ul#disc2 li a, ul#disc2 li a:link, ul#disc2 li a:visited {
+			background: transparent url(../../images/nhm_on_08.png) no-repeat 0 0px;
+			z-index:1000;
+			display: block;
+			text-decoration: none;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 20px;
+			color: #7fa822;
+			text-align: center;
+			-webkit-transition: background-position .5s linear;
+			-moz-transition: background-position .5s linear;
+			-o-transition: background-position .5s linear;
+			transition: background-position .5s linear;
+		}
+		
+		ul#disc2 li a:hover, ul#disc2 li a:focus {
+			background-position: 0 -40px;
+			outline: none;
+		}
+
+/* Styles for DISC button END */
+
+/* Styles for DISC button  */
+
+ul#disc3 {
+	height: 250px;
+	clear: left;
+}
+
+	ul#disc3 li {
+		height: 200px;
+	}
+	
+		ul#disc3 li a, ul#disc3 li a:link, ul#disc3 li a:visited {
+			background: transparent url(../../images/nhm_on_07.png) no-repeat 0 0px;
+			z-index:1000;
+			display: block;
+			text-decoration: none;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 20px;
+			color: #7fa822;
+			text-align: center;
+			-webkit-transition: background-position .5s linear;
+			-moz-transition: background-position .5s linear;
+			-o-transition: background-position .5s linear;
+			transition: background-position .5s linear;
+		}
+		
+		ul#disc3 li a:hover, ul#disc3 li a:focus {
+			background-position: 0 -40px;
+			outline: none;
+		}
+
+/* Styles for DISC button END */
+
+/* Styles for DISC button  */
+
+ul#disc4 {
+	height: 250px;
+	clear: left;
+}
+
+	ul#disc4 li {
+		height: 200px;
+	}
+	
+		ul#disc4 li a, ul#disc4 li a:link, ul#disc4 li a:visited {
+			background: transparent url(../../images/nhm_on_09.png) no-repeat 0 0px;
+			z-index:1000;
+			display: block;
+			text-decoration: none;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 20px;
+			color: #7fa822;
+			text-align: center;
+			-webkit-transition: background-position .5s linear;
+			-moz-transition: background-position .5s linear;
+			-o-transition: background-position .5s linear;
+			transition: background-position .5s linear;
+		}
+		
+		ul#disc4 li a:hover, ul#disc4 li a:focus {
+			background-position: 0 -40px;
+			outline: none;
+		}
+
+/* Styles for DISC button END */
+
+/* Styles for DISC button  */
+
+ul#disc5 {
+	height: 250px;
+	clear: left;
+}
+
+	ul#disc5 li {
+		height: 200px;
+	}
+	
+		ul#disc5 li a, ul#disc5 li a:link, ul#disc5 li a:visited {
+			background: transparent url(../../images/nhm_on_11.png) no-repeat 0 0px;
+			z-index:1000;
+			display: block;
+			text-decoration: none;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 20px;
+			color: #7fa822;
+			text-align: center;
+			-webkit-transition: background-position .5s linear;
+			-moz-transition: background-position .5s linear;
+			-o-transition: background-position .5s linear;
+			transition: background-position .5s linear;
+		}
+		
+		ul#disc5 li a:hover, ul#disc5 li a:focus {
+			background-position: 0 -40px;
+			outline: none;
+		}
+
+/* Styles for DISC button END */
+@-moz-keyframes spinningH {
+  from {
+    -moz-transform: rotateX(0deg) rotateY(0deg);
+  }
+  to{
+    -moz-transform: rotateX(360deg) rotateY(360deg);
+  }
+}
+
+@-webkit-keyframes spinningH {
+  from {
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+  }
+  to{
+    -webkit-transform: rotateX(360deg) rotateY(360deg);
+  }
+}
+
+@-o-keyframes spinningH {
+  from {
+    -o-transform: rotateX(0deg) rotateY(0deg);
+  }
+  to{
+    -o-transform: rotateX(360deg) rotateY(360deg);
+  }
+}
+
+@-ms-keyframes spinningH {
+  from {
+    -ms-transform: rotateX(0deg) rotateY(0deg);
+  }
+  to{
+    -ms-transform: rotateX(360deg) rotateY(360deg);
+  }
+}
+
+@keyframes spinningH {
+  from {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  to{
+    transform: rotateX(360deg) rotateY(360deg);
+  }
+}
+
+ #container {
+  -webkit-perspective : 2000px;
+  -moz-perspective    : 2000px;
+  -o-perspective      : 2000px;
+  -ms-perspective     : 2000px;
+  perspective         : 2000px;
+
+  -webkit-perspective-origin  : 50% 50%;
+  -moz-perspective-origin     : 50% 50%;
+  -moz-transform-origin       : 50% 50%;
+  -o-perspective-origin       : 10% 50%;
+  -ms-perspective-origin      : 50% 50%;
+  perspective-origin          : 50% 50%;
+ }
+
+.animate {
+  -webkit-animation : spinningH 6s infinite linear;
+  -moz-animation    : spinningH 6s infinite linear;
+  -o-animation      : spinningH 6s infinite linear;
+  -ms-animation     : spinningH 6s infinite linear;
+  animation         : spinningH 6s infinite linear;
+}
+
+#cube {
+  position: relative;
+  margin: 0 auto;
+  height: 16px;
+  width: 16px;
+
+  -webkit-transition  : -webkit-transform 2s linear;
+  -moz-transition     : -moz-transform 2s linear;
+  -o-transition       : -o-transform 2s linear;
+  -ms-transition      : -ms-transform 2s linear;
+  transition          : transform 2s linear;
+
+  -webkit-transform-style : preserve-3d;
+  -moz-transform-style    : preserve-3d;
+  -o-transform-style      : preserve-3d;
+  -ms-transform-style     : preserve-3d;
+  transform-style         : preserve-3d;
+}
+
+#cube>div {
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  padding: 8px;
+  opacity: 1;
+  background-position:center center;
+}
+
+#cube div:nth-child(1) {
+  -webkit-transform : translateZ(16px);
+  -moz-transform    : translateZ(16px);
+  -o-transform      : translateZ(16px);
+  -ms-transform     : translateZ(16px);
+  transform         : translateZ(16px);
+  background-color  : #cf2e4a;
+  background-repeat : no-repeat;
+}
+
+#cube div:nth-child(2) {
+  -webkit-transform : rotateY(90deg) translateZ(16px);
+  -moz-transform    : rotateY(90deg) translateZ(16px);
+  -o-transform      : rotateY(90deg) translateZ(16px);
+  -ms-transform     : rotateY(90deg) translateZ(16px);
+  transform         : rotateY(90deg) translateZ(16px);
+  background-color  : #f7acac;
+  background-repeat : no-repeat;
+}
+
+#cube div:nth-child(3) {
+  -webkit-transform : rotateY(180deg) translateZ(16px);
+  -moz-transform    : rotateY(180deg) translateZ(16px);
+  -o-transform      : rotateY(180deg) translateZ(16px);
+  -ms-transform     : rotateY(180deg) translateZ(16px);
+  transform         : rotateY(180deg) translateZ(16px);
+  background-color  : #cf2e4a;
+  background-repeat : no-repeat;
+}
+
+#cube div:nth-child(4) {
+  -webkit-transform : rotateY(-90deg) translateZ(16px);
+  -moz-transform    : rotateY(-90deg) translateZ(16px);
+  -o-transform      : rotateY(-90deg) translateZ(16px);
+  -ms-transform     : rotateY(-90deg) translateZ(16px);
+  transform         : rotateY(-90deg) translateZ(16px);
+  background-color  : #f7acac;
+  background-repeat : no-repeat;
+}
+
+#cube div:nth-child(5) {
+  -webkit-transform : rotateX(-90deg) translateZ(16px) rotate(180deg);
+  -moz-transform    : rotateX(-90deg) translateZ(16px) rotate(180deg);
+  -o-transform      : rotateX(-90deg) translateZ(16px) rotate(180deg);
+  -ms-transform     : rotateX(-90deg) translateZ(16px) rotate(180deg);
+  transform         : rotateX(-90deg) translateZ(16px) rotate(180deg);
+  background-color  : #f05869;
+  background-repeat :no-repeat;
+}
+
+#cube div:nth-child(6)  {
+  -webkit-transform : rotateX(90deg) translateZ(16px);
+  -moz-transform    : rotateX(90deg) translateZ(16px);
+  -o-transform      : rotateX(90deg) translateZ(16px);
+  -ms-transform     : rotateX(90deg) translateZ(16px);
+  transform         : rotateX(90deg) translateZ(16px);
+  background-color  : #f05869;
+  background-repeat :no-repeat;
+  text-align:center;  
+}

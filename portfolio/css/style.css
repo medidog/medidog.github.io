@@ -1,0 +1,73 @@
+body { margin: 0px; }
+img { -ms-interpolation-mode: bicubic; }
+.div-container{
+max-height:100%;
+max-width:100%;
+}
+table, td, tr {  
+  border-spacing:0;
+  border-collapse:collapse;
+  cellpadding:0;
+  cellspacing:0;
+  padding:0;
+}
+.parent{
+position:fixed;
+bottom:0px;
+width:100%; /*width should be 100%*/
+}
+.child{
+height:53px;
+width:1000px; /*min width should give to center the div.*/
+margin:0px auto; /*here it will make center*/
+}
+.children{
+height:403px;
+width:1000px; /*min width should give to center the div.*/
+margin:0px auto; /*here it will make center*/
+}
+.chill{
+height:208px;
+width:1000px; /*min width should give to center the div.*/
+margin:0px auto; /*here it will make center*/
+}
+.myLinkedIn {
+	display: block;
+	width: 500px;
+	height: 59px;
+	background: url('../images/linkedin.png') bottom;
+	text-indent: -99999px;
+}
+.myLinkedIn:hover {
+	background-position: 0 0;
+}
+.myResume {
+	display: block;
+	width: 500px;
+	height: 59px;
+	background: url('../images/resume.png') bottom;
+	text-indent: -99999px;
+}
+.myResume:hover {
+	background-position: 0 0;
+}
+.myGame {
+	display: block;
+	width: 500px;
+	height: 403px;
+	background: url('../images/game.png') bottom;
+	text-indent: -99999px;
+}
+.myGame:hover {
+	background-position: 0 0;
+}
+.myArch {
+	display: block;
+	width: 500px;
+	height: 403px;
+	background: url('../images/arch.png') bottom;
+	text-indent: -99999px;
+}
+.myArch:hover {
+	background-position: 0 0;
+}
