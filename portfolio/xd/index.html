@@ -1,0 +1,324 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Portfolio Samples - Nabi Hamdi Mortan</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+  <!-- Bootstrap Styles -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <!-- Portfolio Styles -->
+  <link rel="stylesheet" href="css/bootstrap-theme.css">
+  <!-- Style Styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Scripts -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/npm.js"></script>
+  <!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Open Sans:300,600|Open Sans:300" rel="stylesheet">
+    <link href="https://fonts.fontself.com/gE309jx/gilbert-color-bold-preview5.css" rel="stylesheet">
+    <link href="https://fonts.fontself.com/gE309jx/gilbert-bold-preview5.css" rel="stylesheet">
+  <link rel="stylesheet"  href="css/lightGallery.css"/>
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+<script src="js/jquery-1.9.1.js"></script>
+  <script type="text/javascript">
+$(document).ready(function(){
+	$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 700, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
+});
+</script>
+<script src="js/lightGallery.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
+        } else {
+            $('.scrollup').fadeOut();
+        }
+    });
+
+});
+</script>
+<script type="text/javascript">
+  $(document).ready(function() {
+     $('#iframe').lightGallery({
+        html:true,
+        thumbnail:false,
+        selector:'#iframe',
+        videoMaxWidth:'100%'
+    });
+  });
+</script>
+<script type="text/javascript">
+  $(document).ready(function() {
+     $('#iframe2').lightGallery({
+        html:true,
+        thumbnail:false,
+        selector:'#iframe2',
+        videoMaxWidth:'100%'
+    });
+  });
+</script>
+<script>
+    	 $(document).ready(function() {
+			$("#lightGallery").lightGallery();
+			$("#lightGallery2").lightGallery();
+			$("#lightGallery3").lightGallery();
+		});
+</script>
+    <script type="text/javascript">
+  $(document).ready(function() {
+    $('#junction').click(function(e){
+        $(this).lightGallery({
+            showThumbByDefault:true,
+            addClass:'showThumbByDefault',
+            dynamic:true,
+            html:true,
+            dynamicEl:[
+                {"src":"img/projects/0.png","thumb":"img/thumb/1.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/5.png","thumb":"img/thumb/2.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/2.png","thumb":"img/thumb/3.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/1.png","thumb":"img/thumb/4.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/3.png","thumb":"img/thumb/5.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/4.png","thumb":"img/thumb/6.png","sub-html":"#dynamicHtml"}
+            ]
+        });	
+    })
+    $('#impeccable').click(function(e){
+        $(this).lightGallery({
+            showThumbByDefault:true,
+            addClass:'showThumbByDefault',
+            dynamic:true,
+            html:true,
+            dynamicEl:[
+                {"src":"img/projects/impeccable0.gif","thumb":"img/thumb/1.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/impeccable0.jpg","thumb":"img/thumb/2.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/impeccable1.gif","thumb":"img/thumb/3.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/impeccable1.png","thumb":"img/thumb/4.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/impeccable2.png","thumb":"img/thumb/5.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/impeccable3.png","thumb":"img/thumb/6.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/impeccable4.png","thumb":"img/thumb/7.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/impeccable4.gif","thumb":"img/thumb/8.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/impeccable5.gif","thumb":"img/thumb/9.png","sub-html":"#dynamicHtml"}
+            ]
+        });	
+    }) 
+    $('#eyesofplay').click(function(e){
+        $(this).lightGallery({
+            showThumbByDefault:true,
+            addClass:'showThumbByDefault',
+            dynamic:true,
+            html:true,
+            dynamicEl:[
+                {"src":"img/projects/barashi0.png","thumb":"img/thumb/barashi0.png"},
+                {"src":"img/projects/barashi.gif","thumb":"img/thumb/barashi.png"},
+                {"src":"img/projects/okyou.gif","thumb":"img/thumb/okyou.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/barashi0.gif","thumb":"img/thumb/barashi00.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/pure.png","thumb":"img/thumb/pure.png","sub-html":"#dynamicHtml"}
+            ]
+        });	
+    })
+    $('#precious').click(function(e){
+        $(this).lightGallery({
+            showThumbByDefault:true,
+            addClass:'showThumbByDefault',
+            dynamic:true,
+            html:true,
+            dynamicEl:[
+                {"src":"img/projects/precious1.png","thumb":"img/thumb/1.png"},
+                {"src":"img/projects/precious2.png","thumb":"img/thumb/2.png"},
+                {"src":"img/projects/precious3.png","thumb":"img/thumb/3.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/precious4.png","thumb":"img/thumb/4.png","sub-html":"#dynamicHtml"}
+            ]
+        });
+    })
+                    
+                    $('#lida').click(function(e){
+                        $(this).lightGallery({
+                            showThumbByDefault:true,
+                            addClass:'showThumbByDefault',
+                            dynamic:true,
+                            html:true,
+                            dynamicEl:[
+                                {"src":"img/projects/lida1.gif","thumb":"img/thumb/1.png"},
+                                {"src":"img/projects/lida2.gif","thumb":"img/thumb/2.png"},
+                                {"src":"img/projects/lida3.png","thumb":"img/thumb/3.png","sub-html":"#dynamicHtml"},
+                                {"src":"img/projects/lida4.gif","thumb":"img/thumb/4.png","sub-html":"#dynamicHtml"}
+                            ]
+                        });
+                    })
+	
+    $('#touchkiosk').click(function(e){
+        $(this).lightGallery({
+            showThumbByDefault:true,
+            addClass:'showThumbByDefault',
+            dynamic:true,
+            html:true,
+            dynamicEl:[
+                {"src":"img/projects/mcexhibit.png","thumb":"img/thumb/mcexhibit.png"},
+                {"src":"img/projects/moundd.png","thumb":"img/thumb/moundd.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/mcexhibit2.png","thumb":"img/thumb/mcexhibit2.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/mcexhibit3.png","thumb":"img/thumb/mcexhibit3.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/mcexhibit4.png","thumb":"img/thumb/mcexhibit4.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/mcexhibit5.png","thumb":"img/thumb/mcexhibit5.png","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/newtown.jpg","thumb":"img/thumb/newtown.jpg","sub-html":"#dynamicHtml"},
+                {"src":"img/projects/newtown2.jpg","thumb":"img/thumb/newtown2.jpg","sub-html":"#dynamicHtml"},
+
+            ]
+        });	
+    })
+	
+  });
+</script>
+</head>
+
+<body id="top"><br />
+<a href="#top" class="scrollup soc2"><img src="img/up.png" width="40" height="40" /></a>
+<article class="home" id="intro"> <div id="sidebar">
+    <br /><br /><br /><br /><h1 style ="font-size: 56px ;-webkit-text-stroke: 1px white;
+color: black;
+text-shadow:
+    5px 0px 0 #fff,
+  -5px 0px 0 #fff,
+   5px 0px 0 #fff,
+    0px 5px 0 #fff,
+    0px -5px 0 #fff,
+    -5px -5px 0 #fff,
+     5px -5px 0 #fff,
+     -5px 5px 0 #fff,
+      5px 5px 0 #fff
+    ;" class="fs-gilbert-color-bold-preview5">‘Medidog’</h1><br /><br /><h2  style="font-size:33px;color:#7fadf9">Nabi <span style="color:#fff">Hamdi Mortan</span></h2>
+  <h4>Concept Artist<br /> UI/UX Designer & Animator</h4><br /><a href="http://www.twitter.com/medidog" target="_blank"><img class="soc2" src="img/social_t.png" width="37" height="32"/></a><a href="http://www.linkedin.com/in/medidog"><img class="soc2" src="img/social_in.png" width="37" height="32"/></a><a href="http://www.github.com/medidog" target="_blank"><img class="soc2" src="img/social_git.png" width="37" height="32"/></a><a href="http://medi.dog" target="_blank"><img class="soc2" src="img/social_tumb.png" width="37" height="32"/></a><br/><br/>
+<br />
+<p class="soc2"><a href="http://medidog.github.io./portfolio/xd/NHM-Resume2020.pdf" target="_blank"><img src="img/resume.png" width="22" height="40" /></a></p><a style="color:#483a53" href="https://medidog.github.io/portfolio/xd/NHM-Resume2020.pdf" target="_blank">
+<h4 style="font-size:16px;">Resume (PDF)</h4></a><br /><br />
+<p class="soc2"><a href="mailto:hamdimortan@gmail.com"><img src="img/mail.png" width="47" height="37" /></a></p>
+<h4 style="color:#fff;font-size:15px">hamdimortan@gmail.com</h4><br />
+<br />
+<p class="soc2"><a href="http://medidog.github.io./portfolio/"><img src="img/www.png" width="47" height="47" /></a></p>
+<a href="http://medidog.github.io./portfolio/"><h4 style="color:#fff; font-size:17px">Back to Main Page</h4></a><br /><br />
+</div></article>
+<article class="about" id="about">
+  <div class="lead">
+    <p>&nbsp;</p>
+    <p>Nabi studied architecture but dedicated his years studying and working on producing animation, video games, user interfaces and experiences throughout his career. He is currently looking for work while making his own pixel comics and making humorous adventure games with his angel half Delikedis.
+    </p>
+        <h3> <a class="me3" href="http://medidog.github.io./portfolio/xd/NHM-Resume2020.pdf" target="_blank" >Download My Resume (PDF)</a></h3>
+    <p>&nbsp;</p>
+    <h4>Below you'll find samples that stands out from the rest of my work:</h4>
+  </div>
+  <div class="lead col-12">  <div class="row"></div>
+</div>
+</article>
+
+<article class="work" id="work">
+    <section id="work-eyesofplay" class="work eyesofplay">
+    <div class="lead col-12">
+      <h3>Eyes of Play Animated Webcomics (2020 - )</h3>
+      <iframe style="min-width:100%;height:168px"  src="https://player.vimeo.com/video/405119287?title=0&byline=0&portrait=0" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+
+    <div class="col-lg-6">The teaser trailer for the original animated webcomic, "Eyes of Play" and the first 45 minutes of its soundtrack.
+        Will be released on <a href="http://www.eyesofplay.com">EyesofPlay.com</a> [WIP] My Role: Art, Animation, VFX, Music.  </div>
+    </div><div class="funfact2 col-lg-offset-6">
+      <div class="funtext">
+          </div>
+        <a id="eyesofplay" href="javascript:void(0)" class="button gallery2"><img src="img/more.png" width="41" height="49" /></a>&nbsp;<a href="https://github.com/medidog/eyesofplay.com" target="_blank" class="button"><img src="img/forkit.png" width="84" height="49" /></a></div></section>
+        <br />
+        
+        <section id="work-precious" class="work precious">
+        <div class="lead col-12">
+          <h3>Precious Moment (2019)</h3>
+          <iframe style="min-width:100%;height:168px"  src="https://player.vimeo.com/video/405498137?title=0&byline=0&portrait=0" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+
+          <div class="col-lg-6"> A game about cherishing the fleeting moments. Available on Meditations.Games Launcher on each year 28th of May. Made in Unity and Fungus. Art made with watercolors and markers, and put together in Photoshop and Unity. My roles: Sketching, Storyboarding, Game Design, Animation, Game Programming </div>
+        </div><div class="funfact2 col-lg-offset-6">
+          <div class="funtext">
+              </div>
+            <a id="precious" href="javascript:void(0)" class="button gallery2"><img src="img/more.png" width="41" height="49" /></a>&nbsp;<a href="https://medidog.itch.io/precious-moment" target="_blank" class="button"><img src="img/itchiofree.png" width="71" height="49" /></a></div></section>
+            
+            <br />
+        
+        <section id="work-junction" class="work junction">
+        <div class="lead">
+          <h3>Junction Earthworks AR App 3D Models (2019)</h3>
+          <iframe style="min-width:100%;height:168px"  src="https://player.vimeo.com/video/405262126?title=0&byline=0&portrait=0" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+          <div class="col-lg-6">Entire model created Blender and Video Rendered in Eeeve, then exported to Unity with proved textures to use in Augmented Reality. My role: 3D Design, Texture Painting and Unity Material Creation</div>
+        </div><div class="funfact col-lg-offset-6">
+            <div class="funtext"> </div>
+            
+            <a id="junction" href="javascript:void(0)" class="button gallery2"><img src="img/more.png" width="41" height="49" /></a>&nbsp;<a href="https://apps.apple.com/us/app/junction-earthworks/id1472880036" target="_blank" class="button"><img src="img/mac2.png" width="30" height="49" /></a>&nbsp;<a href="https://play.google.com/store/apps/details?id=com.virtualgrounds.junctionearthworks&hl=en_US" target="_blank" class="button"><img src="img/play2.png" width="30" height="49" /></a></div></section>
+            <br />
+
+<section id="work-impeccable" class="work impeccable">
+<div class="lead col-12">
+  <h3>Impeccable High Game (2018 - )</h3>
+  <iframe style="min-width:100%;height:168px"  src="https://player.vimeo.com/video/405314744?title=0&byline=0&portrait=0" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+
+  <div class="col-lg-6"> Made in Unity. Pixel art and animation made in Photoshop. My roles: Art direction, Game Design, Implementation of UI, Animation, Game Programming </div>
+</div><div class="funfact2 col-lg-offset-6">
+  <div class="funtext">
+      </div>
+    <a id="impeccable" href="javascript:void(0)" class="button gallery2"><img src="img/more.png" width="41" height="49" /></a>&nbsp;<a href="https://twitter.com/impeccablehigh" target="_blank" class="button"><img src="img/twitit.png" width="41" height="49" /></a></div></section>
+    
+    <br />
+    
+    <section id="work-lida" class="work lida">
+    <div class="lead col-12">
+      <h3>Realtime Shadows Experiment for 2D Unity Sprites(2016)</h3>
+      <iframe style="min-width:100%;height:168px"  src="https://player.vimeo.com/video/405564226?title=0&byline=0&portrait=0" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+
+      <div class="col-lg-6">Implementing real-time shadows for 2d sprite assets with normals. In this experiment, I wanted test capabilities of Unity using 2d assets and using real-time shadows on Sprites. Used Unity Shaders to force fullforward shadows with normals on sprites. </div>
+    </div><div class="funfact2 col-lg-offset-6">
+      <div class="funtext">
+          </div>
+        <a id="lida" href="javascript:void(0)" class="button gallery2"><img src="img/more.png" width="41" height="49" /></a>&nbsp;<a href="https://twitter.com/medidog/timelines/1247978689058521088" target="_blank" class="button"><img src="img/twitit.png" width="41" height="49" /></a></div></section>
+    
+    
+    <section id="work-touchkiosk" class="work touchkiosk">
+    <div class="lead col-12">
+      <h3>Museum Exhibition Kiosk App Design (2013-2014)</h3>
+      <iframe style="min-width:100%;height:168px"  src="https://player.vimeo.com/video/137098608?title=0&byline=0&portrait=0" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+
+      <div class="col-lg-6">This was a museum kiosk app built for Hopewell and Newtown Exhibits, which were parts of the NEH Funded &quot;Ancient Ohio Trail&quot; Project by <a href="http://earthworks.uc.edu/" target="_blank">CERHAS</a>. My roles: UI/UX Design, Art Assets, Implementation, Video editing, Programming (BigVideo.js, Modernizr.js and Chrome Kiosk mode)</div>
+    </div><div class="funfact2 col-lg-offset-6">
+      <div class="funtext">
+          </div>
+        <a id="touchkiosk" href="javascript:void(0)" class="button gallery2"><img src="img/more.png" width="41" height="49" /></a>&nbsp;<a href="https://github.com/medidog/touchKioskv0.2b" target="_blank" class="button"><img src="img/forkit.png" width="84" height="49" /></a></div></section>
+        
+        <br />
+
+
+</article>
+
+<article class="extra" id="extra">
+  <div class="lead">
+    <p>&nbsp;</p>
+    <p> Thanks for browsing! If you want to see more of my work, you can check out my <a class="me3" href="http://medidog.itch.io" target="_blank">Game Portfolio</a> or you can go back to the <a class="me3" href="https://medidog.github.io/portfolio/" target="_blank">Main Page</a>.</p>
+    <p>&nbsp;</p>
+    <h4>I am also blogging here: <a class="me3" href="http://medi.dog" target="_blank">medi.dog</a></h4>
+  </div>
+  <div class="lead col-12">  <div class="row"></div>
+</div>
+</article>
+
+<div style="font-size:14px"> <br /><br /><br /><br />
+  <p>Nabi Hamdi Mortan © 2014 &nbsp;-&nbsp; I combined <a href="http://getbootstrap.com/">Bootstrap</a> and <a href="http://sachinchoolur.github.io/lightGallery/">lightGallery</a>  for this website. &nbsp;&nbsp;<a href="http://www.github.com/medidog">Fork me on Github</a></p>
+  <p><a href="https://twitter.com/medidog" class="twitter-follow-button" data-show-count="false">Follow @medidog</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
+</div>
+</body>
+</html>
