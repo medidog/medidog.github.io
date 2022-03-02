@@ -1,4 +1,16 @@
 body { margin: 0px; }
+@font-face {
+    font-family: 'Gilbert-BoldPreview5';
+    src: url('../xd/css/Gilbert-BoldPreview5.eot');
+    src: url('../xd/css/Gilbert-BoldPreview5.eot?#iefix') format('embedded-opentype'),
+         url('../xd/css/Gilbert-BoldPreview5.woff2') format('woff2'),
+         url('../xd/css/Gilbert-BoldPreview5.woff') format('woff'),
+         url('../xd/css/Gilbert-BoldPreview5.ttf') format('truetype'),
+         url('../xd/css/Gilbert-BoldPreview5.svg#audimatregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 img { -ms-interpolation-mode: bicubic; }
 .div-container{
 max-height:100%;
