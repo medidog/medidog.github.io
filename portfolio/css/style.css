@@ -11,6 +11,7 @@ table, td, tr {
   cellspacing:0;
   padding:0;
 }
+h1,h2,h3{font-family:'Gilbert-BoldPreview5',monospace;font-weight:400;}
 .parent{
 position:fixed;
 bottom:0px;
